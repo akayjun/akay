@@ -25,7 +25,11 @@
     "salesforce/handlebars-php": "^2.3",
     "liquid/liquid": "^1.4",
     "pug-php/pug": "^3.4",
-    "phpunit/phpunit": "^9.5"
+    "phpunit/phpunit": "^9.5",
+    "scssphp/scssphp": "^1.10",
+    "leafo/lessphp": "^0.5.0",
+    "nodejs-php-fallback/stylus": "^1.0",
+    "mustache/mustache": "^2.14"
   },
   "config": {
     "allow-plugins": {
