@@ -1,0 +1,20 @@
+{
+  "name": "akayjun/akay",
+  "description": "A static site generator for PHP",
+  "license": "MIT",
+  "prefer-stable": true,
+  "minimum-stability": "stable",
+  "bin": ["bin/akay"],
+  "autoload": {
+    "psr-4": {
+      "Akayjun\\Akay\\": "src/"
+    }
+  },
+  "authors": [{
+    "name": "aldringames",
+    "email": "aldringamesdevs@gmail.com"
+  }],
+  "require": {
+    "php": ">=7"
+  }
+}
