@@ -1,0 +1,39 @@
+{
+  "name": "akayjun/akay",
+  "description": "A static site generator for PHP",
+  "license": "MIT",
+  "prefer-stable": true,
+  "minimum-stability": "stable",
+  "bin": ["bin/akay"],
+  "autoload": {
+    "psr-4": {
+      "Akayjun\\Akay\\": "src/"
+    }
+  },
+  "authors": [{
+    "name": "aldringames",
+    "email": "aldringamesdevs@gmail.com"
+  }],
+  "require": {
+    "php": ">=8.0.2"
+  },
+  "require-dev": {
+    "spatie/yaml-front-matter": "^2.0",
+    "symfony/yaml": "^6.0",
+    "twig/twig": "^3.3",
+    "smarty/smarty": "^4.0",
+    "salesforce/handlebars-php": "^2.3",
+    "liquid/liquid": "^1.4",
+    "pug-php/pug": "^3.4",
+    "phpunit/phpunit": "^9.5",
+    "scssphp/scssphp": "^1.10",
+    "leafo/lessphp": "^0.5.0",
+    "nodejs-php-fallback/stylus": "^1.0",
+    "mustache/mustache": "^2.14"
+  },
+  "config": {
+    "allow-plugins": {
+      "nodejs-php-fallback/nodejs-php-fallback": true
+    }
+  }
+}
